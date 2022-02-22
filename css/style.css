@@ -134,6 +134,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #eee;
+    padding: 10px;
 }
 
 
@@ -233,7 +234,7 @@ body {
 }
 
 footer {
-    background: url(img/header.jpeg) no-repeat center center/cover;
+    background: url('img/header.jpeg') no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     color: #eee;
@@ -283,6 +284,7 @@ footer {
         display: flex;
         flex-direction: column;
         font-size: 2.1rem;
+        padding: 30px;
 
     }
 
