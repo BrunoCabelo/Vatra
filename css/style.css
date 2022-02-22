@@ -133,6 +133,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #eee;
     padding: 10px;
 }
@@ -284,7 +285,7 @@ footer {
         display: flex;
         flex-direction: column;
         font-size: 2.1rem;
-        padding: 30px;
+        padding: 10px;
 
     }
 
