@@ -126,7 +126,7 @@ body {
 
 #showcase {
     height: 100vh;
-    background: url('/Projetos/Vatra/img/header.jpeg') no-repeat center center/cover;
+    background: url('/img/header.jpeg') no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     display: flex;
@@ -233,7 +233,7 @@ body {
 }
 
 footer {
-    background: url(/Projetos/Vatra/img/header.jpeg) no-repeat center center/cover;
+    background: url(img/header.jpeg) no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     color: #eee;
