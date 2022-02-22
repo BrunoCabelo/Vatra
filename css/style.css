@@ -80,23 +80,28 @@ body {
 
 
 
-.nav-menu {
+#nav-menu {
     height: 100vh;
     background: #111;
     color: #eee;
     width: 100%;
-    display: flex;
+    display: none;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    transition: 500ms ease;
-    position: absolute;
+    text-align: center;
+    left: -1000px;
+
+
+
 }
+
+
 
 #menu-items {
     width: 100%;
 
-    text-align: center;
+
     font-size: 2.2rem;
     list-style: none;
 }
@@ -107,6 +112,13 @@ body {
     padding: 20px;
 }
 
+#menu {
+    text-decoration: none;
+    background: #111;
+    border: none;
+    color: #eee;
+    display: none;
+}
 
 
 
@@ -114,7 +126,7 @@ body {
 
 #showcase {
     height: 100vh;
-    background: url('/Projetos/Exercicio/img/header.jpeg') no-repeat center center/cover;
+    background: url('/Projetos/Vatra/img/header.jpeg') no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     display: flex;
@@ -221,7 +233,7 @@ body {
 }
 
 footer {
-    background: url(/Projetos/Exercicio/img/header.jpeg) no-repeat center center/cover;
+    background: url(/Projetos/Vatra/img/header.jpeg) no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     color: #eee;
@@ -281,6 +293,18 @@ footer {
     .sobre-item p {
         font-size: 1.4rem;
     }
+
+    #nav-items {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+    }
+
+    #menu {
+        display: initial;
+    }
 }
 
 @media(max-width: 640px) {
@@ -295,5 +319,7 @@ footer {
     .projeto-l {
         padding: 5px;
     }
+
+
 
 }
