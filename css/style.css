@@ -86,7 +86,7 @@ body {
     color: #eee;
     width: 100%;
     display: none;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -236,7 +236,7 @@ body {
 }
 
 footer {
-    background: url('img/header.jpeg') no-repeat center center/cover;
+    background: url('/img/header.jpeg') no-repeat center center/cover;
     background-color: rgba(1, 1, 1, 0.6);
     background-blend-mode: color;
     color: #eee;
