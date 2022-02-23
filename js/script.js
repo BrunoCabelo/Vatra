@@ -20,7 +20,7 @@ $(function(){
         
     })
 
-    $(".scroll").on("click", function (event) {
+    $(".scroll1").on("click", function (event) {
         if (this.hash !== "") {
             event.preventDefault();
     
@@ -34,6 +34,24 @@ $(function(){
             );
         }
 
+        $('#nav-menu').toggle(()=>{
+            $('#nav-menu').css('left', 0);
+        });
+    });
+
+    $(".scroll2").on("click", function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+    
+            const hash = this.hash;
+    
+            $("html, body").animate(
+                {
+                    scrollTop: $(hash).offset().top - 100
+                },
+                800
+            );
+        }
     });
 
     
